@@ -11,7 +11,7 @@ struct SchoolDetailView: View {
     let school: School
     var body: some View {
         VStack {
-            Text(school.overviewParagraph ?? "No Data")
+            Text(school.overviewParagraph ?? "No Data Available")
             Spacer()
         }
         .padding()
